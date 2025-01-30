@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet, ScrollView, Dimensions } from 'react-native';
-// import LinearGradient from "react-native-linear-gradient";
-import { LinearGradient } from 'expo-linear-gradient';
-
+import LinearGradient from "react-native-linear-gradient";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
 
