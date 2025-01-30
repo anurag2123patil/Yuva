@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity,Linking } from 'react-native';
-// import LinearGradient from "react-native-linear-gradient";
-import { LinearGradient } from 'expo-linear-gradient';
+import LinearGradient from "react-native-linear-gradient";
 
 
 const BlogPage2=()=>{

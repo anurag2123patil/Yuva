@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Image, StyleSheet, Text, TouchableOpacity } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
+import LinearGradient from 'react-native-linear-gradient';
 import StudentLogin from './StudentLogin';
 
 const MainLogIn = ({ navigation }) => {

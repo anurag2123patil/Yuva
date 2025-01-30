@@ -1,19 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, Image, Alert, ScrollView, Linking, Dimensions } from 'react-native';
-// import LinearGradient from 'react-native-linear-gradient';
-// import DocumentPicker from 'react-native-document-picker';
+import LinearGradient from 'react-native-linear-gradient';
+import DocumentPicker from 'react-native-document-picker';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-
-
-
-
-
-
-
-
-import { LinearGradient } from 'expo-linear-gradient';
-import DocumentPicker from 'expo-document-picker';
 const { width, height } = Dimensions.get('window');
 
 const Become_Ambassador = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import  NavigationContainer from '@react-navigation/native';
-import  createStackNavigator  from '@react-navigation/stack';
+import  {NavigationContainer} from '@react-navigation/native';
+import  {createStackNavigator}  from '@react-navigation/stack';
 import MainLogIn from './MainLogIn';
 import StudentLogin from './StudentLogin';
 import IndustryLogin from './IndustryLogin';
@@ -11,7 +11,7 @@ const Stack = createStackNavigator();
 
 const LogInNavigate = () => {
     return (
-        <NavigationContainer independent={true}>
+        <NavigationContainer >
             <Stack.Navigator initialRouteName="MainLogIn">
                 <Stack.Screen name="MainLogIn" component={MainLogIn}
                     options={{
