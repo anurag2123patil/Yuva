@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView, Dimensions } from 'react-native';
-// import LinearGradient from "react-native-linear-gradient";
-import { LinearGradient } from 'expo-linear-gradient';
+import LinearGradient from "react-native-linear-gradient";
 
 const { width } = Dimensions.get('window');
 
